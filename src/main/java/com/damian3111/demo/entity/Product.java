@@ -23,7 +23,6 @@ public class Product {
     private Long id;
     @Size(min = 3)
     private String name;
-    @DecimalMin(value = "1")
     private float price;
 
     @Override
