@@ -11,4 +11,9 @@ public class SampleTests {
 
         assertThat(true).isEqualTo(true);
     }
+    @Test
+    public void dummy2() {
+
+        assertThat(true).isEqualTo(false);
+    }
 }
